@@ -146,14 +146,14 @@ html, button, input, select, textarea {
 
 .product-features__cell--h {
     color: #676767;
-}
+} 
 
 .product-features__cell {
     font-weight: 600;
 }
 
 .breadcrumbs a {
-  color: #676767;
+  color: #676767;  
 }
 
 .breadcrumbs {
@@ -173,7 +173,7 @@ html, button, input, select, textarea {
 .product-header__code {
     font-size: 14px;
     font-weight: 600;
-
+    
 }
 
 .product-rating__comments {
@@ -254,9 +254,162 @@ html, button, input, select, textarea {
     margin-top: 8px;
 }
 
+.article-text p {
+    font-size: 16px;
+}
 
+.article-text h2 {
+    color: #f14b00;
+}
 
+.article-text h3 {
+    color: #f14b00;
+}
 
+.article-text h4 {
+    color: #f14b00;
+}
+
+.article-text h5 {
+    color: #f14b00;
+}
+
+.article-text h6 {
+    color: #f14b00;
+}
+
+.catalogCard-order .btn {
+    height: 30px;
+    line-height: 26px;
+    font-size: 15px;
+    font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.catalogCard-purchase {
+    height: 30px;
+}
+
+.catalogCard-oldPrice {
+    display: none;
+} 
+
+.productSticker-item.__discount {
+    display: none;
+}
+
+.catalogCard-oldPrice+.catalogCard-price {
+        color: #000;
+}
+
+.product-price__old-price {
+    display: none;
+}
+
+.catalog-card__old-price {
+    display: none;
+}
+
+.catalog-card__prices > .catalog-card__old-price {
+    display: none;
+}
+
+.catalog-card__old-price {
+   color: #acacac00;
+}
+
+.productSticker-item:last-child {
+    /* display: table; */
+}
+
+.kontaktna-informatsiya-cont-wrp-br {
+    padding: 8px 24px 8px 16px;
+
+    display: flex;
+    align-items: center;
+
+    border: 1px solid #c1c1c1c1;
+    border-radius: 16px;
+}
+
+.kontaktna-informatsiya-cont-wrp-br-link {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.kontaktna-informatsiya-block-wrp-br {
+    max-width: 700px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 36px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 24px;
+}
+
+.kontaktna-informatsiya-cont-wrp-br > img {
+    margin: 0;
+}
+
+.kontaktna-informatsiya-klient {
+    padding: 16px;
+    gap: 24px;
+
+    display: flex;
+    align-items: center;
+
+    border: 1px solid #c1c1c1c1;
+    border-radius: 16px;
+}
+
+.kontaktna-informatsiya-klient > div > h4 {
+    text-transform: uppercase;
+}
+
+.kontaktna-informatsiya-klient-img {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.kontaktna-informatsiya-klient-wrp {
+    margin-bottom: 36px;
+    gap: 24px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.text a {
+    border-bottom: 0px solid rgba(51,51,51,0.25);
+}    
+
+.kontaktna-informatsiya-cont-video-wrp-br {
+    width: 60%;
+    height: 370px;
+    
+    margin-bottom: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kontaktna-informatsiya-cont-video-title-wrp {
+    padding-top: 16px;
+    color: #f14b00;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.kontaktna-informatsiya-klient-text-br {
+    text-align: center;
+    color: #f14b00;
+    font-size: 18px;
+}
 
 
 

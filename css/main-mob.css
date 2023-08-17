@@ -1,0 +1,198 @@
+html, button, input, select, textarea {
+    font-family: "arial",serif;
+}
+
+
+
+@media (max-width: 860px) {
+    .catalogCard-oldPrice+.catalogCard-price {
+        color: #fd0f0f;
+    }
+}
+
+.catalogCard-oldPrice+.catalogCard-price {
+    color: #fd0f0f;
+}
+
+.productSticker-item.__popular {
+    background: #9c27b0;
+}
+
+.catalog-card__price.catalog-card__price--new {
+   color: #fd0f0f;
+}
+
+.catalog-menu__link.is-active {
+    border: 1px solid #f14b00;
+    background: #ffffff;
+    color: #f14b00;
+}
+
+.catalog-menu__link.is-active > .catalog-menu__text{
+    color: #f14b00;
+}
+
+.product-sticker__item.product-sticker__item--popular {
+    background: #9c27b0;
+}
+
+.catalog-card__old-price {
+    display: none;
+}
+
+.catalog-card__prices > .catalog-card__old-price {
+    display: none;
+}
+
+.product-sticker__item .product-sticker__item--discount {
+    display: none;
+}
+
+.product-sticker__item:first-child {
+    display: none;
+}
+
+.catalog-card__price.catalog-card__price--new {
+    color: #000000;
+}
+
+.kontaktna-informatsiya-cont-wrp-br {
+    width: 100%;
+    padding: 8px 24px 8px 16px;
+
+    display: flex;
+    align-items: center;
+
+    border: 1px solid #c1c1c1c1;
+    border-radius: 16px;
+}
+
+.kontaktna-informatsiya-cont-wrp-br-link {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.kontaktna-informatsiya-block-wrp-br {
+    max-width: 700px;
+
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 24px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+    gap: 24px;
+}
+
+.kontaktna-informatsiya-cont-wrp-br > img {
+    margin: 0;
+}
+
+.kontaktna-informatsiya-klient {
+    padding: 16px;
+    gap: 24px;
+
+    display: flex;
+    align-items: center;
+
+    border: 1px solid #c1c1c1c1;
+    border-radius: 16px;
+}
+
+.kontaktna-informatsiya-klient-img {
+    display: flex;
+    flex-shrink: 0;
+}
+
+.kontaktna-informatsiya-klient-wrp {
+    gap: 24px;
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.text a {
+    border-bottom: 0px solid rgba(51,51,51,0.25);
+}    
+
+.kontaktna-informatsiya-cont-video-wrp-br {
+    width: 100%;
+    height: 370px;
+    
+    margin-bottom: 36px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.kontaktna-informatsiya-cont-video-title-wrp {
+    padding-top: 16px;
+    
+    font-size: 16px;
+    color: #f14b00;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.kontaktna-informatsiya-klient-text-br {
+    text-align: center;
+    color: #f14b00;
+    font-size: 18px;
+}
+
+.text iframe[src*="//www.youtube.com"] {
+    width: 100%;
+    height: 100%;
+    
+    margin: 0;
+}
+
+.footer {
+    background: #000220;
+}
+
+.footer__base {
+    background: #000220;
+}
+
+.footer__bottom {
+    display: none;
+}
+
+.contacts-info .btn {
+    width: 100%;
+}
+
+.contacts-info {
+    padding-left: 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
