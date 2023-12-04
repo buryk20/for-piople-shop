@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/main.css">
+    <style>
+        .add-crossed-out-prices .test {
+            width: 60px;
+            height: 60px;
+            background-color: red;
+
+            display: block;
+        }
+    </style>
+</head>
+
+<body>
+    <main class="main">
+        <div>
+            <div>
+                <div class="test">
+
+                </div>
+            </div>
+        </div>
+        <div class="product__section">
+            <span class="product__section-wrp">
+                <span class="product__section-wrp-item">
+                    <img alt="" height="32" loading="lazy"
+                        src="https://forpeopleshop.com/content/uploads/images/card24pay.svg" width="48" />
+                </span>
+                <span class="product__section-wrp-item">
+                    <img alt="" height="18" loading="lazy"
+                        src="https://forpeopleshop.com/content/uploads/images/cardapplepay.svg" width="43" />
+                </span>
+                <span class="product__section-wrp-item">
+                    <img alt="" height="18" loading="lazy"
+                        src="https://forpeopleshop.com/content/uploads/images/cardgooglepay.svg" width="43" />
+                </span>
+                <span class="product__section-wrp-item">
+                    <img alt="" height="25" loading="lazy"
+                        src="https://forpeopleshop.com/content/uploads/images/cardmastercardpay.svg" width="33" />
+                </span>
+                <span class="product__section-wrp-item">
+                    <img alt="" height="32" loading="lazy"
+                        src="https://forpeopleshop.com/content/uploads/images/cardvisapay.svg" width="48" />
+                </span>
+                <span class="product__section-wrp-item">
+                    <img alt="" height="32" loading="lazy"
+                        src="https://forpeopleshop.com/content/uploads/images/cardinstallmentpay.svg" width="48" />
+                    <span>Оплата частями</span>
+                </span>
+                <span class="product__section-wrp-item">
+                    <span>Наличный</span>
+                </span>
+                <span class="product__section-wrp-item">
+                    <span>Безналичный расчет</span>
+                </span>
+            </span>
+
+            <span class="product__section-free-shipping-wrp">
+                <span class="product__section-free-shipping-title">Бесплатаня доставка</span> <span>от 1000грн</span>
+                <span>На продукцию торговых марок LogicPower
+                    GreenVision</span>
+            </span>
+
+            <p>Более подробную информацию о наших условиях доставки и оплаты можно найти на странице <strong><a
+                        href="https://forpeopleshop.com/ru/oplata-i-dostavka/">&quot;Оплата и
+                        доставка&quot;</a></strong>
+            </p>
+        </div>
+
+    </main>
+    <script>
+        const urlPage = window.location.href;
+        const urlPagesArr = ['chernaya-pyatnitsa', 'aksesuary-baseus-devia-remax', 'chokhly-dlia-smartfoniv', 'khaby-ta-kardridery', 'filtry-dlia-pylososu', 'universalni-mobilni-batarei', 'pidstavky-dlia-noutbukiv', 'navushnyky', 'monopody-dlia-selfi', 'kabeli-synkhronizatsii', 'perekhidnyky', 'zakhysne-sklo-ta-plivky-dlia-telefoniv', 'zariadni-prystroi-dlia-smartfoniv', 'trymachi-dlia-smartfoniv', 'aksesuary-dlia-smart-hodyn-ta-trekeriv', 'aksesuary-dlia-navushnykiv', 'aksesuary-dlia-avtomobilia', 'adaptery-dlia-pidkliuchennia-hdd-ssd', 'fm-transmitery',];
+        if (urlPagesArr.some(function (url) {
+            return urlPage.includes(url);
+        })) {
+            document.querySelector('.main').classList.add('add-crossed-out-prices');
+        }
+    </script>
+</body>
+
+</html>
