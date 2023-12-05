@@ -28,6 +28,19 @@
     color: #f14b00;
 }
 
+.product__section .product__section-free-shipping-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    text-decoration: underline;
+}
+
+.tabs__body .product__section-free-shipping-price {
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    text-decoration: underline;
+}
 
 .tabs__body .product__section-wrp-item {
     height: 40px;
@@ -58,3 +71,21 @@
     font-weight: 600;
     color: #f14b00;
 }
+
+
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .container div {
+    order: 1;
+  }
