@@ -1,3 +1,138 @@
+html,
+body {
+  min-height: 100vh;
+  width: 100%;
+}
+
+.img-svg {
+  opacity: 1;
+}
+.img-svg svg {
+  height: 100%;
+  width: 100%;
+  max-height: 100%;
+  max-width: 100%;
+  min-height: 100%;
+  min-width: 100%;
+}
+
+/* Указываем box sizing */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  border: 0 none;
+  background-color: transparent;
+  scroll-behavior: smooth;
+}
+
+/* Убираем внутренние отступы */
+ul,
+ol {
+  padding: 0;
+}
+
+/* Убираем внешние отступы */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+li,
+figure,
+figcaption,
+blockquote,
+dl,
+dd {
+  margin: 0;
+}
+
+/* Выставляем основные настройки по-умолчанию для body */
+body {
+  min-height: 100vh;
+  scroll-behavior: smooth;
+  text-rendering: optimizeSpeed;
+  font-size: 14px;
+}
+
+/* Удаляем стандартную стилизацию для всех ul и il, у которых есть атрибут class*/
+ul,
+ol {
+  list-style: none;
+}
+
+/* Элементы a, у которых нет класса, сбрасываем до дефолтных стилей */
+a {
+  color: inherit;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+a:not([class]) {
+  -webkit-text-decoration-skip: ink;
+          text-decoration-skip-ink: auto;
+  cursor: pointer;
+}
+
+/* Упрощаем работу с изображениями */
+img {
+  max-width: 100%;
+  display: block;
+}
+
+/* Наследуем шрифты для инпутов и кнопок */
+input,
+button,
+textarea,
+select {
+  font: inherit;
+  cursor: pointer;
+  padding: 0;
+  border: none;
+  outline: none;
+}
+
+input,
+textarea {
+  outline: none;
+  transition: 0.2s;
+}
+
+label {
+  cursor: pointer;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .product__section .product__section-wrp-item {
     height: 40px;
 
@@ -86,6 +221,101 @@
     flex-direction: column;
   }
 
-  .container div {
-    order: 1;
-  }
+.container div {
+order: 1;
+}
+
+  /* pop up */
+
+.wrp-pop-up-br {
+    backdrop-filter: blur(3px);
+    background-color: #00000080;
+    bottom: 0;
+    cursor: auto;
+    display: flex;
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 999999999999999999999999999999;
+
+    opacity: 0;
+    visibility: hidden;
+
+    transition: 0.3s;
+}
+
+.wrp-pop-up-br.active {
+    opacity: 1;
+    visibility: inherit;
+
+    transition: 0.3s;
+}
+
+.pop-up-br {
+    width: 100%;
+    max-width: 560px;
+
+    margin-left: 16px;
+    margin-right: 16px;
+
+    position: relative;
+
+    background-color: #f14b00;
+    border-radius: 8px;
+
+    color: white;
+}
+
+.pop-up-title-br {
+    margin-bottom: 16px;
+    font-size: 24px;
+}
+
+.pop-up-line-br {
+    width: 100%;
+    height: 1px;
+
+    display: flex;
+
+    background-color: white;
+}
+
+.pop-up-cross-line-btm-l-br,
+.pop-up-cross-line-btm-r-br
+{
+    width: 24px;
+    height: 1px;
+
+    display: flex;
+
+    position: absolute;
+
+    background-color: white;
+}
+
+.pop-up-cross-line-btm-l-br {
+    transform: rotate(45deg);
+}
+
+.pop-up-cross-line-btm-r-br {
+    transform: rotate(-45deg);
+}
+
+.pop-up-cross-line-btm-wrp-br {
+    width: 40px;
+    height: 40px;
+
+    position: absolute;
+
+    right: 16px;
+    top: 16px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    cursor: pointer;
+}

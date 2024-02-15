@@ -111,7 +111,15 @@
             <div>6</div>
         </div>
 
-
+        <div data-pop-up-br class="wrp-pop-up-br active">
+            <div data-pop-up-wrp-cont-br class="pop-up-br">
+                <div data-pop-up-btn-close-br class="pop-up-cross-line-btm-wrp-br">
+                    <span class="pop-up-cross-line-btm-l-br"></span>
+                    <span class="pop-up-cross-line-btm-r-br"></span>
+                </div>
+                <img src="./img/fon.png" alt="">
+            </div>
+        </div>
     </main>
     <script>
         const urlPage = window.location.href;
@@ -122,6 +130,33 @@
             document.querySelector('.main').classList.add('add-crossed-out-prices');
         }
     </script>
+    <script src="./js/main.js"></script>
+
+    <!-- <script>
+        const popUpBrWrp = document.querySelector('[data-pop-up-br]');
+        const popUpBtnCloseDr = popUpBrWrp.querySelector('[data-pop-up-btn-close-br]');
+        const popUpWrpCont = popUpBrWrp.querySelector('[data-pop-up-wrp-cont-br]');
+
+        if(popUpBrWrp) {
+            setTimeout(delActivePopUpBr, 3000, popUpBrWrp);
+            eventFunction(popUpBtnCloseDr, popUpBrWrp);
+            popUpWrpCont.addEventListener('click', function(event) {
+                event.stopPropagation();
+            });
+            eventFunction(popUpBrWrp, popUpBrWrp);
+        }
+
+        function delActivePopUpBr(param) {
+            param.classList.remove('active');
+        }
+
+        function eventFunction(elem, param) {
+            elem.addEventListener('click', function () {
+                delActivePopUpBr(param);
+            });
+        }
+    </script> -->
+
 </body>
 
 </html>
