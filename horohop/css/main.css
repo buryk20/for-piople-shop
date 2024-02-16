@@ -263,7 +263,7 @@ order: 1;
 
     position: relative;
 
-    background-color: #f14b00;
+    /* background-color: #f14b00; */
     border-radius: 8px;
 
     color: white;
@@ -318,4 +318,12 @@ order: 1;
     justify-content: center;
 
     cursor: pointer;
+}
+
+.data-pop-up-br {
+  padding: 4px 8px;
+
+  color: white;
+
+  background-color: black;
 }
